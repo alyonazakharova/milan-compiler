@@ -1,0 +1,7 @@
+BEGIN
+  i := 1;
+  REPEAT
+    WRITE(i);
+    i := i + 1
+  UNTIL i > 10
+END
